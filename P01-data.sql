@@ -2,9 +2,9 @@
 -- Group Number: 123
 -- Group Members: 4
 --   1. Eldridge Ng
---   2.
---   3.
---   4.
+--   2. Darius Deng
+--   3. Beh Shao Ren
+--   4. Yu Tingan
 --
 
 -- Insert countries
