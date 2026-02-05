@@ -107,5 +107,5 @@ CREATE TABLE exit (
     reason VARCHAR(50) NOT NULL,
     FOREIGN KEY (bib) REFERENCES rider(bib) ON UPDATE CASCADE,
     FOREIGN KEY (stage_number) REFERENCES stage(stage_number) ON UPDATE CASCADE,
-    ADD CONSTRAINT exit_reason CHECK (reason IN ('withdrawal', 'DNS'))
+    CONSTRAINT exit_reason CHECK (reason IN ('withdrawal', 'DNS'))
 );
